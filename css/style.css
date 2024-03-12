@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dodgerblue;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    padding: 10px;
+}
+
+section {
+    background-color: white;
+    width: 400px;
+    margin: 0px auto 100px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+section div label {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+section input[type=number] {
+    display: block;
+    margin: 0px auto 5px;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+section input[type=button] {
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    display: block;
+    margin: 25px auto;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+section input[type=button]:hover {
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+section #resP{
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    padding: 5px 0px;
+    background-color: white;
+    text-align: center;
+    font-size: .8em;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+
+.material-icons {
+    vertical-align: middle;
+    padding: 1.8px;
+    font-size: 1.7em;
+}
